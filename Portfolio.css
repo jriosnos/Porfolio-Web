@@ -1,0 +1,142 @@
+body{
+    background-color: #2b2a28;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.container-custom{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.navbar-custom {
+    background-color: rgb(44, 39, 39);
+    border: 3px solid #e6acdb;
+    color:  #e6acdb !important;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 30px !important;
+}
+.navbar-custom a{
+    color: #e6acdb !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+}
+.home-bg-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.home-bg{
+    height: 100vh;
+    width: 100%;
+}
+.bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    background-color: rgb(186, 168, 182, 75%);
+    border-radius: 50px;
+    width: 50%
+}
+.fe{
+    font-size: 0.5em; 
+    color: #dbd3da;
+    
+}
+
+
+.headerContainer{
+    color: white;
+    border-bottom: 2px black;
+}
+.profile{
+    padding: 0.5em;
+    float: left;
+}
+.portrait{
+    border-radius: 600px;
+    height: 100%;
+    margin: 15px;
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e6acdb;
+    
+}
+.link-wrapper{
+    display: flex;
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 204px
+}
+.link-wrapper img{
+    max-width: 40px;
+    max-height: auto;
+}
+.link-img{
+    background-color: #dbd3da;
+    max-width: 45px;
+    float:left;
+    margin: 3px;
+    border-radius: 600px;
+    border: solid;
+    border-color: black;
+    overflow: hidden;
+}
+.link1{
+ flex: 1;
+}
+.link2{
+    flex: 1
+}
+.link3{
+    flex: 1
+}
+.link4{
+    flex: 1
+}
+.wrapper{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.wrapper img{
+    max-height: 100px;
+}
+.img1{
+    flex: 1
+}
+.img2{
+    flex: 1
+}
+.img3{
+    flex: 1
+}
+.img4{
+    flex: 1
+}
+
+
+
+.intro h1{
+    text-align: center;
+    color: #e6acdb;
+    font-weight: 600
+}
+.intro div{
+    font-weight: 200;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color: #e6acdb;
+    text-align: center;
+}
