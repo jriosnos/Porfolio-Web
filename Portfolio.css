@@ -1,5 +1,5 @@
 body{
-    background-color: #2b2a28;
+    background-color: #141413f1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .container-custom{
@@ -48,7 +48,10 @@ body{
     
 }
 
-
+.about-title{
+    /* color: rgba(192, 153, 183, 0.75); */
+    margin-top: 3%
+}
 .headerContainer{
     color: white;
     border-bottom: 2px black;
@@ -121,19 +124,41 @@ body{
     flex: 1
 }
 
-
-
-.intro h1{
+.intro{
+    margin-top: 1%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    margin-bottom: 2%
+}
+.intro h2{
     text-align: center;
     color: #e6acdb;
-    font-weight: 600
+    font-weight: 600;
+    padding-top: 5%
 }
 .intro div{
     font-weight: 200;
     display: block;
     margin: auto;
 }
+.bodyContainer{
+    margin-top: 3%;
+    padding-top: 5%
+}
+.bodyContainer h2{
+    color: #e6acdb
+}
+.wrapper{
+    padding: 4%
+}
+.cardWrapper{
+    display: block;
 
+}
+.card{
+    background-color:rgb(186, 168, 182, 75%);
+    margin: 2%;
+}
 .footer{
     width: 100%;
     background-color: black;
