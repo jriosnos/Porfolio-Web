@@ -128,7 +128,7 @@ body{
 .intro{
     margin-top: 1%;
     padding-right: 3%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     margin-bottom: 2%
 }
 .intro h2{
@@ -150,8 +150,9 @@ body{
     margin-bottom: 5%;
 }
 .bodyContainer{
-    margin-top: 3%;
-    padding-top: 5%
+  
+    margin-top: 1%;
+    /* padding-top: 5% */
 }
 .bodyContainer h2{
     color: #e6acdb
@@ -161,11 +162,21 @@ body{
 }
 .cardWrapper{
     display: block;
-
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 .card{
     background-color:rgb(186, 168, 182, 75%);
     margin: 2%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.mar{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
 .footer{
     width: 100%;
@@ -176,6 +187,9 @@ body{
 @media (max-width: 490px){
     body{
         font-size: 0.7em;
+    }
+    .bg-text{
+        width: 85%;
     }
     .portrait{
         display: block !important;
@@ -190,5 +204,10 @@ body{
     }
     .intro{
         padding-top: 10%
+    }
+    .card{
+        background-color:rgb(186, 168, 182, 75%);
+        margin: 2%;
+        margin-bottom: 10px; /* Added */
     }
 }
