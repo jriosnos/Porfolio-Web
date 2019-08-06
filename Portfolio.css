@@ -9,7 +9,7 @@ body{
 }
 .navbar-custom {
     background-color: rgb(44, 39, 39);
-    border: 3px solid #e6acdb;
+    border: none solid rgb(44, 39, 39);
     color:  #e6acdb !important;
     width: 100%;
     margin-top: 15px;
